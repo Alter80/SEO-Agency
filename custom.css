@@ -1,0 +1,126 @@
+#home {
+  z-index: 1;
+}
+
+.nav-sec {
+  overflow: hidden;
+}
+
+#paragraph {
+  width: max-content !important;
+  background: #faebd9 !important;
+  color: #fbb247 !important;
+}
+
+#pa {
+  width: fit-content;
+  margin: 0 auto;
+  background: #faebd9 !important;
+  color: #fbb247 !important;
+}
+
+.iconStyle {
+  position: relative;
+  z-index: 1;
+}
+
+.iconStyle::after {
+  position: absolute;
+  content: "";
+  bottom: 70%;
+  left: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #fbb247;
+  z-index: -1;
+}
+
+#testimonial {
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#imgages {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+  margin: 10px auto;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+.icons {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.icons i {
+  font-size: 24px;
+  margin-left: 6px;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+.icons i:hover {
+  color: royalblue;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+input,
+textarea {
+  outline: none;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
